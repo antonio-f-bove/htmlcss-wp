@@ -71,12 +71,6 @@ nav ul li a {
     color: inherit;
 }
 
-footer {
-    height: 150px;
-    background-color: violet;
-    margin-top: 10px;
-}
-
 .section2 .section-header {
     margin: 50px 0;
 }
@@ -89,20 +83,29 @@ footer {
 
 .section2 .section-sidebar {
     float: left;
-    height: 300px;
-    width: 15%;
-    background: rebeccapurple;
+    width: 20%;
 }
 
 .section2 .section-main {
-    /* background-color: yellow; */
     float: left;
-    height: 300px;
-    width: 70%;
+    width: 60%;
     padding: 0 10px;
 }
-.section-main div {
-    background-color: yellow;
-    height: 100%;
+
+.section2 img {
+    width: 100%;
+    height: 200px;
 }
 
+.section-main img {
+    object-fit: cover;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    height: 150px;
+    background-color: violet;
+    margin-top: 10px;
+}
